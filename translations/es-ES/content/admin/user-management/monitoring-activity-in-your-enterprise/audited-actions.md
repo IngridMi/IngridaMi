@@ -197,7 +197,7 @@ Action                            | Description
 `user.two_factor_requested`       | A user was prompted for a two-factor authentication code.{% endif %}
 `user.unsuspend`                  | A user account was unsuspended by a site admin.
 
-{% ifversion ghes > 3.1 or ghae-next %}
+{% ifversion ghes > 3.1 or ghae-issue-1157 %}
 ## Workflows
 
 {% data reusables.actions.actions-audit-events-workflow %}
