@@ -1,7 +1,7 @@
 ---
 date: '2021-11-09'
 release_candidate: true
-deprecated: true
+deprecated: false
 intro: |
   {% note %}
 
