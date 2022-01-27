@@ -24,7 +24,7 @@ import { getLiquidConditionals } from '../../script/helpers/get-liquid-condition
 import allowedVersionOperators from '../../lib/liquid-tags/ifversion-supported-operators.js'
 import semver from 'semver'
 import { jest } from '@jest/globals'
-import { getDiffFiles } from '../helpers/diff-files.js'
+import { getDiffFiles } from '../utils.js'
 
 jest.useFakeTimers('legacy')
 
